@@ -2,6 +2,7 @@
 import requests
 import json
 import os
+import boto3
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -12,8 +13,14 @@ SNOW_INSTANCE = os.getenv("SNOW_INSTANCE")
 SNOW_USERNAME = os.getenv("SNOW_USERNAME")
 SNOW_PASSWORD = os.getenv("SNOW_PASSWORD")
 
-# build the API URL — same one you tested in the browser
+AWS_ACCESS_KEY_ID     = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+AWS_BUCKET_NAME       = os.getenv("AWS_BUCKET_NAME")
+AWS_REGION            = os.getenv("AWS_REGION")
+
+# build the ServiceNow API base URL
 BASE_URL = f"https://{SNOW_INSTANCE}.service-now.com/api/now/table"
+
 
 def extract_incidents():
     # the fields we want to pull from each incident
@@ -38,7 +45,7 @@ def extract_incidents():
         "sysparm_display_value": "true"
     }
 
-    # call the API — same as typing the URL in your browser
+    # call the ServiceNow API
     print("Calling ServiceNow API...")
     response = requests.get(
         f"{BASE_URL}/incident",
@@ -55,15 +62,41 @@ def extract_incidents():
     incidents = response.json()["result"]
     print(f"Pulled {len(incidents)} incidents from ServiceNow")
 
-    # save to a local JSON file with today's date in the name
+    # convert to JSON string — this is what we will upload to S3
     today = datetime.now().strftime("%Y-%m-%d")
-    filename = f"data/incidents_{today}.json"
+    json_data = json.dumps(incidents, indent=2)
+
+    # also save locally as a backup
     os.makedirs("data", exist_ok=True)
+    local_file = f"data/incidents_{today}.json"
+    with open(local_file, "w") as f:
+        f.write(json_data)
+    print(f"Saved locally to {local_file}")
 
-    with open(filename, "w") as f:
-        json.dump(incidents, f, indent=2)
+    # upload to S3
+    # the S3 key is the path inside your bucket — like a folder structure
+    # raw/incidents/2026-03-22/incidents_2026-03-22.json
+    s3_key = f"raw/incidents/{today}/incidents_{today}.json"
 
-    print(f"Saved to {filename}")
+    print(f"Uploading to S3: s3://{AWS_BUCKET_NAME}/{s3_key}")
+
+    s3_client = boto3.client(
+        "s3",
+        region_name=AWS_REGION,
+        aws_access_key_id=AWS_ACCESS_KEY_ID,
+        aws_secret_access_key=AWS_SECRET_ACCESS_KEY
+    )
+
+    s3_client.put_object(
+        Bucket=AWS_BUCKET_NAME,
+        Key=s3_key,
+        Body=json_data,
+        ContentType="application/json"
+    )
+
+    print(f"Successfully uploaded to S3!")
+    print(f"Location: s3://{AWS_BUCKET_NAME}/{s3_key}")
+
 
 # run the function when this file is executed
 if __name__ == "__main__":
