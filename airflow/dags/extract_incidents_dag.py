@@ -6,6 +6,7 @@ import json
 import os
 import boto3
 from dotenv import load_dotenv
+from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator
 
 # load credentials from our .env file
 load_dotenv()
@@ -147,6 +148,71 @@ with DAG(
         provide_context=True,
     )
 
+SQL_WAREHOUSE_HTTP_PATH = "/sql/1.0/warehouses/2919094212d967d5"
+
+    # Task 3: Trigger dbt Analytical Transformations (dim_groups & fct_incidents)
+task_dbt_run = DatabricksSubmitRunOperator(
+    task_id="execute_dbt_run",
+    databricks_conn_id="databricks_default",
+    json={
+            "tasks": [
+                {
+                    "task_key": "dbt_run_execution",
+                    "notebook_task": {
+                        "notebook_path": "/Users/your_user/dbt_wrapper_run",
+                    },
+                    "sql_warehouse_task": {
+                        "warehouse_id": SQL_WAREHOUSE_HTTP_PATH.split("/")[-1]
+                    }
+                }
+            ]
+        }
+    )
+
+    # Task 4: Execute dbt Automated Quality Tests (Schema Assertions)
+task_dbt_test = DatabricksSubmitRunOperator(
+    task_id="execute_dbt_validation_tests",
+    databricks_conn_id="databricks_default",
+        json={
+            "tasks": [
+                {
+                    "task_key": "dbt_test_execution",
+                    "notebook_task": {
+                        "notebook_path": "/Users/your_user/dbt_wrapper_test",
+                    },
+                    "sql_warehouse_task": {
+                        "warehouse_id": SQL_WAREHOUSE_HTTP_PATH.split("/")[-1]
+                    }
+                }
+            ]
+        }
+    )
+
+    # Task 5: Trigger the GenAI Claude Ingestion Layer via AWS Bedrock
+task_genai_enrichment = DatabricksSubmitRunOperator(
+    task_id="execute_llm_bedrock_enrichment",
+    databricks_conn_id="databricks_default",
+    json={
+            "tasks": [
+                {
+                    "task_key": "llm_enrichment_run",
+                    "notebook_task": {
+                        "notebook_path": "/Users/your_user/03_llm_enrichment",
+                    },
+                    "new_cluster": {
+                        "spark_version": "14.3.x-scala2.12",
+                        "node_type_id": "i3.xlarge",
+                        "num_workers": 1
+                    }
+                }
+            ]
+        }
+    )
+
+    # ── UNIFIED PRODUCTION PIPELINE DEPENDENCIES ─────────────────────────────
+    # 1. API Extraction -> 2. S3 Audit -> 3. dbt Computations -> 4. Quality Assertion -> 5. GenAI
+task_extract >> task_verify >> task_dbt_run >> task_dbt_test >> task_genai_enrichment
+
     # >> means "task_extract must finish before task_verify starts"
     # this is the core of DAG design — defining task order
-    task_extract >> task_verify
+   

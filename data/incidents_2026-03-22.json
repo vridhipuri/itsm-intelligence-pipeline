@@ -1,0 +1,1134 @@
+[
+  {
+    "number": "INC0000060",
+    "short_description": "Unable to connect to email",
+    "opened_at": "2016-12-12 07:19:57",
+    "closed_at": "2016-12-13 18:46:44",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "2016-12-13 13:43:14",
+    "state": "Closed",
+    "sys_updated_on": "2016-12-13 18:46:44",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0009002",
+    "short_description": "My computer is not detecting the headphone device",
+    "opened_at": "2018-09-16 05:49:23",
+    "closed_at": "2018-12-09 19:29:08",
+    "assignment_group": "",
+    "resolved_at": "2018-09-16 05:51:17",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-05 01:15:21",
+    "priority": "3 - Moderate",
+    "category": "Hardware",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000009",
+    "short_description": "Reset my password",
+    "opened_at": "2025-10-11 15:50:23",
+    "closed_at": "2025-10-12 15:55:16",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:04",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000010",
+    "short_description": "Need Oracle 10GR2 installed",
+    "opened_at": "2025-10-05 15:53:02",
+    "closed_at": "2025-10-10 15:54:55",
+    "assignment_group": {
+      "display_value": "Database",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ee6fea9fe198100ada7950d0b1b73"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:35",
+    "priority": "4 - Low",
+    "category": "Database",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000011",
+    "short_description": "Need new Blackberry set up",
+    "opened_at": "2025-10-12 16:01:12",
+    "closed_at": "2025-10-16 16:02:54",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:56:31",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000012",
+    "short_description": "Customer didn't receive eFax",
+    "opened_at": "2025-09-19 16:07:00",
+    "closed_at": "2025-10-12 16:12:02",
+    "assignment_group": {
+      "display_value": "Database",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ee6fea9fe198100ada7950d0b1b73"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:56:12",
+    "priority": "5 - Planning",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000013",
+    "short_description": "EMAIL is slow when an attachment is involved",
+    "opened_at": "2025-10-16 16:15:58",
+    "closed_at": "2025-10-17 16:18:40",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "2026-01-04 11:54:48",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:54:48",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000014",
+    "short_description": "Missing my home directory",
+    "opened_at": "2025-09-09 16:37:35",
+    "closed_at": "2026-01-05 01:15:21",
+    "assignment_group": "",
+    "resolved_at": "2025-12-28 15:14:03",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-05 01:15:21",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Bud Richman",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46c6f9efa9fe198101ddf5eed9adf6e7"
+    }
+  },
+  {
+    "number": "INC0000021",
+    "short_description": "New employee hire",
+    "opened_at": "2025-10-11 16:52:01",
+    "closed_at": "2025-10-16 16:52:17",
+    "assignment_group": "",
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:56:12",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0000024",
+    "short_description": "Issue with a web page on wiki",
+    "opened_at": "2025-10-17 16:52:52",
+    "closed_at": "2025-10-17 16:53:08",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:44",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000026",
+    "short_description": "Seem to have an issue with my hard drive...",
+    "opened_at": "2025-09-18 16:54:59",
+    "closed_at": "2025-09-20 16:56:53",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:35",
+    "priority": "5 - Planning",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000028",
+    "short_description": "My disk is still having issues. Can't delete a file",
+    "opened_at": "2025-09-27 16:58:00",
+    "closed_at": "2025-10-02 16:58:58",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:31",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000030",
+    "short_description": "Lost connection to the wireless network",
+    "opened_at": "2025-10-12 17:01:12",
+    "closed_at": "2025-10-12 18:02:14",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:37",
+    "priority": "5 - Planning",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000032",
+    "short_description": "EMAIL Server Down Again",
+    "opened_at": "2025-09-26 17:19:36",
+    "closed_at": "2025-09-26 17:35:27",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:54",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000033",
+    "short_description": "File Server is 80% full - Needs upgrade",
+    "opened_at": "2025-09-20 15:22:52",
+    "closed_at": "2025-09-20 17:24:08",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2026-01-04 11:56:13",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:24",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000034",
+    "short_description": "Does not look like a backup occurred last night",
+    "opened_at": "2025-09-17 13:25:29",
+    "closed_at": "2025-09-18 17:26:41",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "2025-12-26 08:12:01",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:53:47",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000035",
+    "short_description": "Reset my password",
+    "opened_at": "2025-10-14 17:32:47",
+    "closed_at": "2025-10-17 17:33:33",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:13",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:15",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Luke Wilson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d96f57a9fe198101947a9620895886"
+    }
+  },
+  {
+    "number": "INC0000036",
+    "short_description": "Issue with networking",
+    "opened_at": "2025-10-11 17:33:49",
+    "closed_at": "2025-10-15 17:34:21",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "2026-01-04 11:56:13",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:57:58",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Luke Wilson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d96f57a9fe198101947a9620895886"
+    }
+  },
+  {
+    "number": "INC0000038",
+    "short_description": "my PDF docs are all locked from editing",
+    "opened_at": "2025-10-11 17:36:44",
+    "closed_at": "2025-10-18 17:37:14",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:13",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 11:57:55",
+    "priority": "4 - Low",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Luke Wilson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d96f57a9fe198101947a9620895886"
+    }
+  },
+  {
+    "number": "INC0000006",
+    "short_description": "Hangs when trying to print VISIO document",
+    "opened_at": "2025-10-04 16:08:05",
+    "closed_at": "2025-10-17 17:36:40",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:15:59",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Howard Johnson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46ca0887a9fe19810191e08e51927ebf"
+    }
+  },
+  {
+    "number": "INC0000008",
+    "short_description": "Printer in my office is out of toner",
+    "opened_at": "2025-10-12 16:08:39",
+    "closed_at": "2025-10-17 16:08:57",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:02",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000001",
+    "short_description": "Can't read email",
+    "opened_at": "2025-10-04 16:09:51",
+    "closed_at": "2025-10-05 16:10:06",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 11:56:12",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:07",
+    "priority": "1 - Critical",
+    "category": "Network",
+    "assigned_to": {
+      "display_value": "Charlie Whitherspoon",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46b87022a9fe198101a78787e40d7547"
+    }
+  },
+  {
+    "number": "INC0000004",
+    "short_description": "Forgot email password",
+    "opened_at": "2025-10-11 15:49:22",
+    "closed_at": "2025-10-12 17:40:24",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "2026-01-04 12:16:24",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-04 12:16:24",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Bud Richman",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46c6f9efa9fe198101ddf5eed9adf6e7"
+    }
+  },
+  {
+    "number": "INC0000601",
+    "short_description": "The USB port on my PC stopped working",
+    "opened_at": "2025-12-31 01:42:59",
+    "closed_at": "2026-03-20 19:19:05",
+    "assignment_group": "",
+    "resolved_at": "2026-01-03 03:09:56",
+    "state": "Closed",
+    "sys_updated_on": "2026-03-20 19:19:05",
+    "priority": "5 - Planning",
+    "category": "Hardware",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0009003",
+    "short_description": "Cannot sign into the company portal app",
+    "opened_at": "2018-08-30 02:17:32",
+    "closed_at": "2018-08-30 02:49:17",
+    "assignment_group": "",
+    "resolved_at": "2018-08-30 02:49:17",
+    "state": "Closed",
+    "sys_updated_on": "2018-12-12 23:39:53",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0009004",
+    "short_description": "Defect tracking tool is down.",
+    "opened_at": "2018-09-01 06:13:30",
+    "closed_at": "2018-12-09 19:29:09",
+    "assignment_group": "",
+    "resolved_at": "2018-09-01 06:18:53",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-05 01:15:22",
+    "priority": "3 - Moderate",
+    "category": "Software",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000005",
+    "short_description": "CPU load high for over 10 minutes",
+    "opened_at": "2025-09-30 16:06:52",
+    "closed_at": "2026-01-05 01:15:22",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "2025-12-28 15:14:18",
+    "state": "Closed",
+    "sys_updated_on": "2026-01-05 01:15:22",
+    "priority": "1 - Critical",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "Bud Richman",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46c6f9efa9fe198101ddf5eed9adf6e7"
+    }
+  },
+  {
+    "number": "INC0008001",
+    "short_description": "ATF:TEST2",
+    "opened_at": "2021-01-15 13:04:14",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2021-01-21 15:31:42",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000015",
+    "short_description": "I can't launch my VPN client since the last software update",
+    "opened_at": "2025-09-20 16:38:46",
+    "closed_at": "2025-09-25 16:39:10",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:50:33",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000016",
+    "short_description": "Rain is leaking on main DNS Server",
+    "opened_at": "2025-09-15 16:40:23",
+    "closed_at": "2025-10-01 16:40:40",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:51:23",
+    "priority": "1 - Critical",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000017",
+    "short_description": "How do I create a sub-folder",
+    "opened_at": "2015-08-12 16:41:00",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2015-11-24 07:47:36",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Fred Luddy",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2005"
+    }
+  },
+  {
+    "number": "INC0000018",
+    "short_description": "Sales forecast spreadsheet is READ ONLY",
+    "opened_at": "2025-09-21 16:42:46",
+    "closed_at": "2025-09-22 16:44:21",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:37:49",
+    "priority": "1 - Critical",
+    "category": null,
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000019",
+    "short_description": "Can't launch 64-bit Windows 7 virtual machine",
+    "opened_at": "2025-09-23 16:44:39",
+    "closed_at": "2025-09-29 16:45:37",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:46:13",
+    "priority": "2 - High",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Bud Richman",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46c6f9efa9fe198101ddf5eed9adf6e7"
+    }
+  },
+  {
+    "number": "INC0000020",
+    "short_description": "I need a replacement iPhone, please",
+    "opened_at": "2025-10-03 16:51:35",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:45:32",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000025",
+    "short_description": "Need to add more memory to laptop",
+    "opened_at": "2025-09-13 16:53:46",
+    "closed_at": "2025-10-01 16:55:10",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:44:35",
+    "priority": "1 - Critical",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000027",
+    "short_description": "Please remove the latest hotfix from my PC",
+    "opened_at": "2025-10-02 16:55:55",
+    "closed_at": "2025-10-06 16:59:20",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:52:24",
+    "priority": "2 - High",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000029",
+    "short_description": "I can't get my weather report",
+    "opened_at": "2025-10-04 17:00:44",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:50:57",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000031",
+    "short_description": "Need help with Remedy. Can we configure UI?",
+    "opened_at": "2025-09-08 17:18:03",
+    "closed_at": "2025-09-08 17:30:02",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:44:20",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000037",
+    "short_description": "Request for a new service",
+    "opened_at": "2025-10-06 17:34:56",
+    "closed_at": "2025-10-06 17:35:39",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:51:40",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Howard Johnson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46ca0887a9fe19810191e08e51927ebf"
+    }
+  },
+  {
+    "number": "INC0000039",
+    "short_description": "Trouble getting to Oregon mail server",
+    "opened_at": "2025-10-06 17:41:01",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2026-01-04 11:39:15",
+    "priority": "5 - Planning",
+    "category": "Network",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000040",
+    "short_description": "JavaScript error on hiring page of corporate website",
+    "opened_at": "2025-10-06 17:42:45",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2026-01-04 11:46:30",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000041",
+    "short_description": "My desk phone does not work",
+    "opened_at": "2025-10-06 17:44:53",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:52:15",
+    "priority": "3 - Moderate",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000044",
+    "short_description": "Can't log into SAP from my laptop today",
+    "opened_at": "2025-10-06 17:47:08",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:52:03",
+    "priority": "2 - High",
+    "category": null,
+    "assigned_to": {
+      "display_value": "Fred Luddy",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2005"
+    }
+  },
+  {
+    "number": "INC0008112",
+    "short_description": "Assessment :  ATF Assessor",
+    "opened_at": "2019-07-29 11:48:43",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2019-07-29 11:49:28",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0009009",
+    "short_description": "Unable to access the shared folder.",
+    "opened_at": "2018-08-30 01:06:16",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2018-12-12 23:30:24",
+    "priority": "4 - Low",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000057",
+    "short_description": "Performance problems with wifi",
+    "opened_at": "2016-08-10 09:14:59",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2016-08-10 09:14:59",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000059",
+    "short_description": "Unable to access team file share",
+    "opened_at": "2016-08-10 09:14:29",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2016-08-10 09:14:29",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000007",
+    "short_description": "Need access to sales DB for the West",
+    "opened_at": "2015-08-12 16:08:24",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2015-11-24 07:47:36",
+    "priority": "1 - Critical",
+    "category": "Database",
+    "assigned_to": {
+      "display_value": "David Loo",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2007"
+    }
+  },
+  {
+    "number": "INC0000058",
+    "short_description": "Performance problems with email",
+    "opened_at": "2016-08-10 09:37:45",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2016-08-10 09:37:45",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000002",
+    "short_description": "Network file shares access issue",
+    "opened_at": "2025-09-28 16:07:12",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2026-01-04 11:51:11",
+    "priority": "1 - Critical",
+    "category": "Network",
+    "assigned_to": {
+      "display_value": "Howard Johnson",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46ca0887a9fe19810191e08e51927ebf"
+    }
+  },
+  {
+    "number": "INC0001990",
+    "short_description": "Unable to access the personal details section in payroll portal",
+    "opened_at": "2020-06-07 09:02:25",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2020-06-07 09:04:34",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0009001",
+    "short_description": "Unable to post content on a Wiki page",
+    "opened_at": "2018-09-11 20:56:26",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2018-12-12 23:32:42",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0008111",
+    "short_description": "ATF : Test1",
+    "opened_at": "2019-07-22 14:04:57",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2019-07-22 14:05:48",
+    "priority": "5 - Planning",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000047",
+    "short_description": "Issue with email",
+    "opened_at": "2025-12-14 12:53:18",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:51:52",
+    "priority": "3 - Moderate",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0000046",
+    "short_description": "Can't access SFA software",
+    "opened_at": "2025-12-14 14:04:15",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2025-12-13 14:37:27",
+    "priority": "3 - Moderate",
+    "category": "Software",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000048",
+    "short_description": "Having problems with Sales Tools performance",
+    "opened_at": "2015-11-02 14:05:36",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2015-11-24 07:46:20",
+    "priority": "4 - Low",
+    "category": null,
+    "assigned_to": {
+      "display_value": "ITIL User",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/681b365ec0a80164000fb0b05854a0cd"
+    }
+  },
+  {
+    "number": "INC0000051",
+    "short_description": "Manager can't access SAP Controlling application",
+    "opened_at": "2025-12-14 12:48:32",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:40:45",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000052",
+    "short_description": "SAP Financial Accounting application appears to be down",
+    "opened_at": "2025-12-14 12:48:40",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2025-12-28 13:50:24",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": {
+      "display_value": "Fred Luddy",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/5137153cc611227c000bbd1bd8cd2005"
+    }
+  },
+  {
+    "number": "INC0000053",
+    "short_description": "The SAP HR application is not accessible",
+    "opened_at": "2025-12-14 12:48:46",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Software",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a4dde73c6112278017a6a4baf547aa7"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:42:25",
+    "priority": "1 - Critical",
+    "category": "Inquiry / Help",
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0000054",
+    "short_description": "SAP Materials Management is slow or there is an outage",
+    "opened_at": "2015-11-02 12:49:08",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "",
+    "state": "On Hold",
+    "sys_updated_on": "2015-11-24 07:47:36",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000055",
+    "short_description": "SAP Sales app is not accessible",
+    "opened_at": "2025-12-14 20:47:23",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Service Desk",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/d625dccec0a8016700a222a0f7900d06"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2025-12-28 15:08:31",
+    "priority": "1 - Critical",
+    "category": null,
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0000003",
+    "short_description": "Wireless access is down in my area",
+    "opened_at": "2025-10-05 16:07:30",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Network",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:51:14",
+    "priority": "1 - Critical",
+    "category": "Network",
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0009005",
+    "short_description": "Email server is down.",
+    "opened_at": "2018-08-31 21:35:21",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2018-12-12 23:18:55",
+    "priority": "1 - Critical",
+    "category": "Software",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0000049",
+    "short_description": "Network storage unavailable",
+    "opened_at": "2025-12-14 13:56:37",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:52:34",
+    "priority": "2 - High",
+    "category": "Network",
+    "assigned_to": {
+      "display_value": "Don Goodliffe",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/9ee1b13dc6112271007f9d0efdb69cd0"
+    }
+  },
+  {
+    "number": "INC0000050",
+    "short_description": "Can't access Exchange server - is it down?",
+    "opened_at": "2025-12-14 13:58:24",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Hardware",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/8a5055c9c61122780043563ef53438e3"
+    },
+    "resolved_at": "",
+    "state": "In Progress",
+    "sys_updated_on": "2026-01-04 11:49:40",
+    "priority": "1 - Critical",
+    "category": "Hardware",
+    "assigned_to": {
+      "display_value": "Beth Anglin",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user/46d44a23a9fe19810012d100cca80666"
+    }
+  },
+  {
+    "number": "INC0007001",
+    "short_description": "Employee payroll application server is down.",
+    "opened_at": "2018-10-16 22:47:10",
+    "closed_at": "",
+    "assignment_group": {
+      "display_value": "Openspace",
+      "link": "https://dev301918.service-now.com/api/now/table/sys_user_group/36c741fa731313005754660c4cf6a70d"
+    },
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2026-01-05 01:08:09",
+    "priority": "1 - Critical",
+    "category": "Hardware",
+    "assigned_to": ""
+  },
+  {
+    "number": "INC0007002",
+    "short_description": "Need access to the common drive.",
+    "opened_at": "2018-10-16 22:47:51",
+    "closed_at": "",
+    "assignment_group": "",
+    "resolved_at": "",
+    "state": "New",
+    "sys_updated_on": "2018-12-12 23:28:49",
+    "priority": "4 - Low",
+    "category": "Inquiry / Help",
+    "assigned_to": ""
+  }
+]

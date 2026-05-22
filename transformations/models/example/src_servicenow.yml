@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: databricks_source
+    database: workspace
+    schema: itsm_pipeline
+    tables:
+      - name: stg_incidents
+        description: "Raw incidents extracted from ServiceNow via Airflow and cleaned in PySpark."
