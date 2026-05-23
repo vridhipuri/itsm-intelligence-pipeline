@@ -59,8 +59,8 @@ x-airflow-common:
     SNOW_PASSWORD: "ServiceNow@22"
     AWS_BUCKET_NAME: "itsm-pipeline-raw-vridhi"
     AWS_REGION: "us-east-1"
-    AWS_ACCESS_KEY_ID: "AKIA475DTCMHQV7Y5TS5"
-    AWS_SECRET_ACCESS_KEY: "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"
+    AWS_ACCESS_KEY_ID: ""
+    AWS_SECRET_ACCESS_KEY: ""
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
